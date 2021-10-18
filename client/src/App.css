@@ -1,0 +1,14 @@
+html{
+  font-size: 13px;
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+::placeholder{
+  font-size: 12px;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnsContainer, .MuiDataGrid-columnHeaderDraggableContainer,.MuiIconButton-label{
+  background-color: #339be0;
+  color: white;
+}
+

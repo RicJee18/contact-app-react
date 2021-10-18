@@ -1,0 +1,20 @@
+###
+POST  http://localhost:5000/contact/update/614c3530508973a4ded806be
+Content-Type: application/json
+
+{ 
+    "fullname": "Mary Alexis  Jane Baterna Gt.",
+    "email": "maryalexisjanebaterna@gmail.com",
+    "contact_num": 9504439878,
+    "location": "Select Location",
+    "reg_date": "2021-09-23",
+}
+
+###
+GET http://localhost:5000/contact/
+
+###
+DELETE http://localhost:5000/contact/614d6d914e36e325e7b06fe7
+
+###
+GET http://localhost:5000/contact/614b1fe4fb20a4493663a7f2
